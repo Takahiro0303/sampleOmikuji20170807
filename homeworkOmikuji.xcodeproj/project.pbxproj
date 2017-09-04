@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0B4EFB1F5D7E180002BE71 /* disapointed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0B4EFA1F5D7E180002BE71 /* disapointed.jpg */; };
 		1C86B4A21F5BA68600CC5D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86B4A11F5BA68600CC5D44 /* AppDelegate.swift */; };
 		1C86B4A41F5BA68600CC5D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86B4A31F5BA68600CC5D44 /* ViewController.swift */; };
 		1C86B4A71F5BA68600CC5D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C86B4A51F5BA68600CC5D44 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0B4EFA1F5D7E180002BE71 /* disapointed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disapointed.jpg; sourceTree = "<group>"; };
 		1C86B49E1F5BA68600CC5D44 /* homeworkOmikuji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeworkOmikuji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C86B4A11F5BA68600CC5D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C86B4A31F5BA68600CC5D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				1C86B4D61F5C0A9900CC5D44 /* star.jpg */,
 				1C86B4D71F5C0A9900CC5D44 /* tasha.jpg */,
 				1C86B4DF1F5C5C9300CC5D44 /* 2.png */,
+				1C0B4EFA1F5D7E180002BE71 /* disapointed.jpg */,
 				1C86B4A51F5BA68600CC5D44 /* Main.storyboard */,
 				1C86B4A81F5BA68600CC5D44 /* Assets.xcassets */,
 				1C86B4AA1F5BA68600CC5D44 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				1C86B4AC1F5BA68600CC5D44 /* LaunchScreen.storyboard in Resources */,
 				1C86B4D81F5C0A9900CC5D44 /* bantayan.jpg in Resources */,
 				1C86B4DD1F5C0A9900CC5D44 /* star.jpg in Resources */,
+				1C0B4EFB1F5D7E180002BE71 /* disapointed.jpg in Resources */,
 				1C86B4DA1F5C0A9900CC5D44 /* cloud.jpg in Resources */,
 				1C86B4A91F5BA68600CC5D44 /* Assets.xcassets in Resources */,
 				1C86B4DE1F5C0A9900CC5D44 /* tasha.jpg in Resources */,

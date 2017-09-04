@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var myLabel: UILabel!
     
     @IBOutlet weak var islandView: UIImageView!
     
@@ -17,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var countoryFlag3: UIImageView!
     @IBOutlet weak var countoryFlog4: UIImageView!
     
+    @IBOutlet weak var tapStart: UIButton!
     
     var island = ["Surigao","Camotes","Elnido","Bohol","Osulobu","Bantayan","Siquijor"]
 
@@ -72,25 +74,32 @@ class ViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in 
             if r == 0{
                 self.islandView.image = UIImage(named: "cloud.jpg")
+                self.myLabel.text = "Let's go Surigao"
             }else if r == 1{
                 self.islandView.image = UIImage(named: "star.jpg")
+                self.myLabel.text = "Let's go Camotes"
             }else if r == 2{
                 self.islandView.image = UIImage(named: "elnido.jpg")
+                self.myLabel.text = "Let's go El nido"
             }else if r == 3{
                 self.islandView.image = UIImage(named: "tasha.jpg")
+                self.myLabel.text = "Let's go Bohol"
             }else if r == 4{
                 self.islandView.image = UIImage(named: "shark.jpg")
+                self.myLabel.text = "Let's go Osulobu"
             }else if r == 5{
                 self.islandView.image = UIImage(named: "bantayan.jpg")
+                self.myLabel.text = "Let's go Bantayan"
             }else{
                 self.islandView.image = UIImage(named: "black.jpeg")
+                self.myLabel.text = "Let's go Siquijor"
             }
         }))
         
         alert.addAction(UIAlertAction(
             title: "キャンセル",
             style: UIAlertActionStyle.cancel,
-            handler: { action in
+            handler: { action in self.islandView.image = UIImage(named: "disapointed.jpg")
         }))
 
         

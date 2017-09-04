@@ -69,6 +69,7 @@
                         <outlet property="countoryFlag3" destination="pHh-mw-8Sq" id="KKo-uH-81y"/>
                         <outlet property="countoryFlog4" destination="r5L-AG-Zm9" id="xGX-gE-C62"/>
                         <outlet property="islandView" destination="48L-aO-3ja" id="QZ2-D7-5mV"/>
+                        <outlet property="myLabel" destination="HIP-Vh-G1z" id="o6c-q4-CU9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
